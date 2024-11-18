@@ -1,0 +1,13 @@
+const kelvin = 293;
+//Outputs the weather for today. 293k
+
+const celsius = kelvin - 273;
+//Calculates degrees in Celsius
+
+let fahrenheit = celsius * (9/5) +32;
+//Calculates degrees in Fahrenheit
+
+fahrenheit = Math.floor(fahrenheit);
+//Rounds down the decimal
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
