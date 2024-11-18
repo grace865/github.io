@@ -1,10 +1,10 @@
 const kelvin = 293;
-//Outputs the weather for today. 293k
+//Outputs the weather for today 293
 
 const celsius = kelvin - 273;
 //Calculates degrees in Celsius
 
-let newton = celsius * (33/100)
+let newton = celsius * (33/100);
 //Calculates degrees in Newton scale
 
 newton = Math.floor(newton);
